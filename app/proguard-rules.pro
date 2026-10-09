@@ -31,8 +31,8 @@
 
 # Gson
 -keep class org.fossify.commons.models.SimpleContact { *; }
--keep class org.fossify.messages.models.Attachment { *; }
--keep class org.fossify.messages.models.MessageAttachment { *; }
+-keep class com.M3.Messages.models.Attachment { *; }
+-keep class com.M3.Messages.models.MessageAttachment { *; }
 
 # ez-vcard's parameter registries use reflection to enumerate public constants
 # and create runtime values for unknown TYPE/MEDIATYPE parameters.

@@ -84,7 +84,7 @@ android {
         }
     }
 
-    flavorDimensions.add("variants")
+    flavorDimensions += "variants"
     productFlavors {
         register("foss")
         register("gplay")
@@ -115,7 +115,7 @@ android {
         )
     }
 
-    namespace = project.property("APP_ID").toString()
+    namespace = "com.M3.Messages"
 
     lint {
         checkReleaseBuilds = false
